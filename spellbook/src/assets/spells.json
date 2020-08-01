@@ -10,14 +10,14 @@
         "ekf": "Esoteric knowlege factor, how cool you are as a wizard?"
     },
     "convocations": {
-        "Neutral":  "None",
-        "Lyahvi": "Air, light",
-        "Peleahn": "Fire, ?",
-        "Odvishe": "Water, ?",
-        "Jmorvi": "Earth, artifice",
-        "Savoryan": "Mind, knowledge",
-        "Fyvria": "Nature, healing",
-        "Lyran": "Spirit, death"
+        "Neutral":  ["None"],
+        "Lyahvi": ["Air", "light"],
+        "Peleahn": ["Fire"],
+        "Odvishe": ["Water"],
+        "Jmorvi": ["Earth","Artifice"],
+        "Savoryan": ["Mind", "Knowledge"],
+        "Fyvria": ["Nature", "Healing"],
+        "Lyran": ["Spirit", "Death"]
     },
     "spells": [
         {

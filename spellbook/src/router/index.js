@@ -17,6 +17,16 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "spellbook" */ '../views/Spells.vue')
+  },
+  {
+    path: '/vuetify',
+    name: "Vuetify",
+    component: () => import(/* webpackChunkName: "vuetify" */ '../views/Vuetify.vue')
+  },
+  {
+    path: '/spells/add',
+    name: 'AddSpell',
+    component: () => import(/* webpackChunkName: "spellbook" */ '../components/AddSpell.vue')
   }
 ]
 

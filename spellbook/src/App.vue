@@ -25,7 +25,15 @@
         />
       </div>
 
+
       <v-spacer></v-spacer>
+      <div style="color: white">
+      <router-link to="/" style="color:white;">Home</router-link> |
+      <router-link to="/spells" style="color:white;">Spells</router-link> | 
+      <router-link to="/vuetify" style="color:white;">Vuetify</router-link>
+      </div>
+      <v-spacer></v-spacer>
+
 
       <v-btn
         href="https://github.com/vuetifyjs/vuetify/releases/latest"
@@ -37,12 +45,14 @@
       </v-btn>
     </v-app-bar>
 
-    <v-content>
-      <HelloWorld/>
-    </v-content>
+    <v-main>
+      <router-view/>
+    </v-main>
   </v-app>
 </template>
 
+
+<!--
 <script>
 import HelloWorld from './components/HelloWorld';
 
@@ -58,3 +68,4 @@ export default {
   }),
 };
 </script>
+-->
